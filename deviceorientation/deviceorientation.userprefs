@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs">
+    <Files>
+      <File FileName="Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs" Line="129" Column="20" />
+      <File FileName="Assets/SocketIO/Scripts/Test/TestSocketIO.cs" Line="1" Column="1" />
+      <File FileName="Assets/Streamert/Scripts/SocketSender.cs" Line="1" Column="1" />
+      <File FileName="Assets/SocketIO/Scripts/SocketIO/SocketIOEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/SocketIO/JSONObject/readme.txt" Line="1" Column="1" />
+      <File FileName="Assets/SocketIO/JSONObject/JSONObject.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

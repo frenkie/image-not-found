@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{0AD797BB-39FF-1CD5-D609-B1FFB839CA03}") = "Image Not Found", "Assembly-CSharp-firstpass.csproj", "{9272C891-D53D-3777-A14F-5E1ACAE946B5}"
+EndProject
+Project("{0AD797BB-39FF-1CD5-D609-B1FFB839CA03}") = "Image Not Found", "Assembly-CSharp.csproj", "{90AEA258-882F-DCCC-000C-5E57A01C1198}"
+EndProject
+Project("{0AD797BB-39FF-1CD5-D609-B1FFB839CA03}") = "Image Not Found", "Assembly-CSharp-Editor.csproj", "{82B73423-DB75-3F3C-40E3-0A6A33107EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9272C891-D53D-3777-A14F-5E1ACAE946B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9272C891-D53D-3777-A14F-5E1ACAE946B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9272C891-D53D-3777-A14F-5E1ACAE946B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9272C891-D53D-3777-A14F-5E1ACAE946B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AEA258-882F-DCCC-000C-5E57A01C1198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AEA258-882F-DCCC-000C-5E57A01C1198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AEA258-882F-DCCC-000C-5E57A01C1198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AEA258-882F-DCCC-000C-5E57A01C1198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B73423-DB75-3F3C-40E3-0A6A33107EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B73423-DB75-3F3C-40E3-0A6A33107EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B73423-DB75-3F3C-40E3-0A6A33107EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B73423-DB75-3F3C-40E3-0A6A33107EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

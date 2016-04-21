@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sockit Admin page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap-theme.min.css">
+    <style>
+
+        body {
+            padding: 10px;
+        }
+
+        input[type=range] {
+            max-width: 200px;
+        }
+
+        .form-group {
+            padding: 0 10px;
+        }
+
+        .range-value:before {
+            content: 'current: ';
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div class="container">
+        <div class="row">
+            <h1 class="page-header">
+                Sockit Admin.
+            </h1>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>Pass on messages as if you were a client</p>
+                <div class="messages form form-inline"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/vendor/handlebars/dist/handlebars.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/config.js"></script>
+
+<script id="form-element" type="text/x-handlebars-template">
+    <div class="well">
+
+        <div class="form-group">
+            <button id="{{name}}" class="btn btn-primary {{#hasArguments}}has-arguments{{/hasArguments}}">{{name}}</button>
+        </div>
+
+        {{#arguments}}
+        <div class="form-group">
+            {{#isRange}}
+                <label for="{{../name}}-{{name}}">{{name}} ( {{min}}-{{max}}, step {{step}} )</label>
+                <input type="range" min="{{min}}" max="{{max}}" step="{{step}}" value="{{default}}" id="{{../name}}-{{name}}" />
+                <span id="{{../name}}-{{name}}-value" class="range-value"></span>
+            {{/isRange}}
+
+            {{#isSelect}}
+            <select id="{{../name}}-{{name}}">
+                {{#options}}
+                <option {{#selected}}selected="selected"{{/selected}} value="{{name}}">{{name}}</option>
+                {{/options}}
+            </select>
+            {{/isSelect}}
+
+            {{^isRange}}
+            {{^isSelect}}
+                <input type="text" id="{{../name}}-{{name}}" class="{{type}}" placeholder="{{name}} ({{type}})" />
+            {{/isSelect}}
+            {{/isRange}}
+        </div>
+        {{/arguments}}
+
+    </div>
+</script>
+
+<script src="js/MessageForm.js"></script>
+<script src="js/impl.js"></script>
+</body>
+</html>

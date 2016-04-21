@@ -1,0 +1,12 @@
+{
+  "messages": {
+    "yrotation": {
+      "arguments": [
+        {
+          "name": "rotation",
+          "type": "json"
+        }
+      ]
+    }
+  }
+}

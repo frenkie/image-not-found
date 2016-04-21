@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{420A7A6B-D893-4292-CB0E-C78544226529}") = "Streaming360", "Assembly-CSharp.csproj", "{146D927C-C91D-92F9-6D66-4103CDEDA48C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{146D927C-C91D-92F9-6D66-4103CDEDA48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146D927C-C91D-92F9-6D66-4103CDEDA48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146D927C-C91D-92F9-6D66-4103CDEDA48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146D927C-C91D-92F9-6D66-4103CDEDA48C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

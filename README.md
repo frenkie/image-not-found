@@ -34,7 +34,7 @@ Unity audio, you do need the deviceorientation app and the sockit server.
 ## deployment for the browser
 You can generate a browser verson which mimicks what the physical game does.
 In the build settings of the project, add the browser-version scene to export a
-version of the game you can play in the browser with just you headphones and
+version of the game you can play in the browser with just your headphones and
 keyboard+mouse.
 
 

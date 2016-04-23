@@ -3,6 +3,8 @@
 Image Not Found is a location based audio play (hoorspel in Dutch), where you
 experience a short news story blindfolded with only audio cues.
 
+![Image Not Found exhibition screenshot](/ImageNotFound.jpg?raw=true)
+
 # Contents
 
 1.  `image-not-found/` - The main Unity game

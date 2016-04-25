@@ -39,6 +39,10 @@ In the build settings of the project, add the browser-version scene to export a
 version of the game you can play in the browser with just your headphones and
 keyboard+mouse.
 
+### Demo
+You find a demo of the browser version on 
+[hackastory.github.io/image-not-found/](https://hackastory.github.io/image-not-found/)
+
 
 
 # Device orientation
